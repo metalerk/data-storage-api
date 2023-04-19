@@ -37,6 +37,12 @@ $ pytest
 
 ### Upload an Object
 
+**The repositories are created when performing a request against to the url containing the name of the repository.**
+
+e.g.
+
+**ending a request to /data/test-repo/ will create `test-repo` repo in case it doesn't exist yet.**
+
 ```
 PUT /data/{repository}
 ```
