@@ -1,4 +1,4 @@
-# Coding Exercise: Data Storage API
+# Data Storage API
 
 Implement a small HTTP service to store objects organized by repository.
 Clients of this service should be able to GET, PUT, and DELETE objects.
